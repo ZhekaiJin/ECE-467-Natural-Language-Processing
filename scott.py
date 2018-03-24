@@ -10,9 +10,9 @@ import sys
 def text_categorizer (trainning_data, testing_data, output_file, k = 0.06):
     #Training
     k = float(k)
-    oldpath = os.getcwd()
-    path = (oldpath, "TC_provided")
-    os.chdir("/".join(path))
+    #oldpath = os.getcwd()
+    #path = (oldpath, "TC_provided")
+    #os.chdir("/".join(path))
     stemer = PorterStemmer()
     total_words_per_category = dict() # the total count of all words that have been mapped to this class.
     doc_count_per_category = dict()   #the count of documents that have been mapped to this category Nc
@@ -100,7 +100,7 @@ def text_categorizer (trainning_data, testing_data, output_file, k = 0.06):
         str = line + ' ' + decision + '\n'
         result.append(str)
 
-    os.chdir(oldpath)
+    #os.chdir(oldpath)
     with open(output_file, 'w') as f:
         for line in result:
             f.write(line)
