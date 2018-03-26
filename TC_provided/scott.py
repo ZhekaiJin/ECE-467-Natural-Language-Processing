@@ -82,7 +82,7 @@ def text_categorizer (trainning_data, testing_data, output_file, k = 0.06):
         for category in category_list:
             MLE = 0.
             P_Ci = doc_count_per_category[category]/total_doc_number
-            divisor = total_words_per_category[category] + V
+            divisor = total_words_per_category[category] + V * k
 
             for word, count in test_token_cout.items():
                 if (word, category) in word_count_per_category:
