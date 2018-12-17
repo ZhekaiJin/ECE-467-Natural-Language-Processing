@@ -3,7 +3,7 @@
 #### Author : Zhekai Jin (Scott)
 #### Course : ECE 467 Natural Language Processing
 #### Professor : Carl Sable 
-#### Placed 3rd place in performance among 107 classifier implementations throughout course history
+#### Awards : Placed 3rd place in performance among 107 classifier implementations throughout course history
 ## Description
 A text categorization using **Naive Bayes** method with Laplacian Smoothing. [Laplacian Smoothing to aviod zeroing out] A classifier was trained using the training set, and result in a learned classifier.
 Then this learned classifier is used to classify new documents.
