@@ -18,7 +18,6 @@ Then this learned classifier is used to classify new documents. Further requirem
 ## Usage
 ```
 python3 scott.py [k]
-
 ```	
 
 k stands for the Laplacian Smoothing Factor 
