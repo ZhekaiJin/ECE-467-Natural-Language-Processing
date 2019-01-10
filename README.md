@@ -5,9 +5,8 @@
 #### Professor : Carl Sable 
 #### Awards : Placed 3rd place in performance among 107 classifier implementations throughout course history
 ## Description
-A text categorization using **Naive Bayes** method with Laplacian Smoothing. [Laplacian Smoothing to aviod zeroing out] A classifier was trained using the training set, and result in a learned classifier.
-Then this learned classifier is used to classify new documents.
-Further requirement details could be found at [Individual Programming Project link](http://faculty.cooper.edu/sable2/courses/spring2018/ece467/).
+A text categorization using **Naive Bayes** method with Laplacian Smoothing. Laplacian smoothing is implemented to avoid zeroing out. A classifier was trained using the training set, and result in a learned classifier.
+Then this learned classifier is used to classify new documents. Further requirement details could be found at [Individual Programming Project link](http://faculty.cooper.edu/sable2/courses/spring2018/ece467/).
 	
 ## Dependency 
 * Python3 
