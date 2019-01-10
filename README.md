@@ -7,7 +7,7 @@
 ## Description
 A text categorization using **Naive Bayes** method with Laplacian Smoothing. [Laplacian Smoothing to aviod zeroing out] A classifier was trained using the training set, and result in a learned classifier.
 Then this learned classifier is used to classify new documents.
-Further details could be found at [Individual Programming Project](http://faculty.cooper.edu/sable2/courses/spring2018/ece467/).
+Further details could be found at [Individual Programming Project link](http://faculty.cooper.edu/sable2/courses/spring2018/ece467/).
 	
 ## Dependency 
 * Python3 
