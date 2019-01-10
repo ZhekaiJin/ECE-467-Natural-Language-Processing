@@ -19,9 +19,8 @@ Then this learned classifier is used to classify new documents. Further requirem
 ```
 python3 scott.py [k]
 ```	
-
+follow the prompted questions.<br>
 k stands for the Laplacian Smoothing Factor 
-Then answer the question as prompted.
 
 ## Assumptions 
 * [Bag of Words] assumption: Assume the position of the words in the document doesn’t matter.
@@ -32,7 +31,7 @@ Then answer the question as prompted.
 **Given:**
 
 + an input document
-+ an labeled training sets contains category that this document belongs to
++ a labeled training set contains category that this document belongs to
 
 **Train:**
 
